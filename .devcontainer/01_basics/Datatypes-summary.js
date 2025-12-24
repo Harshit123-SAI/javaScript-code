@@ -27,9 +27,36 @@ let myObj = {
 }
 
 const myFunction = function(){
-  console.log("Hello World");
+  //console.log("Hello World");
 
 
   
 }
-console.log(typeof myFunction);
+//console.log(typeof myFunction);
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ //
+ //Stack(Primitive) ,Heap(Non-Primitive)
+
+ let myYoutubename = "harshitSaini"
+
+ let anotherName = myYoutubename
+ anotherName = "Saini"
+
+console.log(myYoutubename);
+ console.log(anotherName);
+
+ let userOne = {
+  email:"hs@gmail.com",
+  upi: "user@sbi"
+ }
+ let userTwo= userOne
+ userTwo.email="hc@gmail.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
+ 
+ 
